@@ -14,10 +14,31 @@
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <title>镜像 https://github.com/feidao158</title>
+
+
+    <style>
+        .content {
+            width: 100%;
+            text-justify: newspaper;
+            word-break: break-all;
+            border: 1px solid green;
+            padding: 10px;
+        }
+        
+    </style>
+
+    <script>
+        function handlerClick() {
+            window.open('./static/qrcode.png')
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -25,8 +46,32 @@
         <h3>镜像-公益服务</h3>
         <p class="bg-info">如果你有更好的建议欢迎反馈: 18660403850@163.com</p>
         <div>
-            <img style="width: 200px;" src="biu.jpg" alt="" class="img-circle">
+            <img style="width: 200px;" src="static/biu.jpg" alt="" class="img-circle">
         </div>
+
+
+        <div class="panel  panel-warning">
+            <div class="panel-heading">
+               v2ray配置
+            </div>
+
+            <div class="panel-body">
+                <div class="content">
+                    vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImZyZWVkb20uamluZ3hpYW5nLmJlc3QiLA0KICAiYWRkIjogImZyZWVkb20uamluZ3hpYW5nLmJlc3QiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiODAwOTFmNjUtZTczYy00NmY4LTllOGMtODkyNmQ2Mjk5MDc5IiwNCiAgImFpZCI6ICIyMzMiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImZyZWVkb20uamluZ3hpYW5nLmJlc3QiLA0KICAicGF0aCI6ICIvZmVpZGFvMTU4IiwNCiAgInRscyI6ICJ0bHMiDQp9
+                </div>
+
+                
+
+                <div style="margin-top: 10px;">
+                    <button type="button" class="btn btn-primary" onclick="handlerClick()">查看二维码</button>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
 
         <div class="panel panel-info">
             <div class="panel-heading">
